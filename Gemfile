@@ -33,6 +33,7 @@ gem 'carrierwave'
 gem 'kaminari'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem 'pg'
 
 group :assets do
   gem 'angularjs-rails'
@@ -45,6 +46,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'web-console', '2.0.0.beta4'
   gem 'puma'
+  gem 'annotate'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
