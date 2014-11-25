@@ -8,4 +8,5 @@
         %li= link_to 'test link', '#'
         %li= link_to 'test link', '#'
       %ul.nav.navbar-nav.navbar-right
+        %li= link_to('Logout', destroy_user_session_path, method: :delete) if user_signed_in?
         %li= link_to 'Name', '#'

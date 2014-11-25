@@ -7,7 +7,5 @@
     = csrf_meta_tags
   %body
     = render 'layouts/navbar'
-          
-    %p.notice= notice
-    %p.alert= alert
+    = render 'layouts/messages'
     = yield
