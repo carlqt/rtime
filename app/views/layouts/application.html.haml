@@ -2,10 +2,10 @@
 %html
   %head
     %title Rtime
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'application', media: 'all'
     = csrf_meta_tags
   %body
     = render 'layouts/navbar'
     = render 'layouts/messages'
     = yield
+    = javascript_include_tag 'application'
